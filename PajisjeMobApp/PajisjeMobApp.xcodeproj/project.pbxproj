@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1C5724424BE2A3E00ED568A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5724324BE2A3E00ED568A /* AppDelegate.swift */; };
+		D1C5724624BE2A3F00ED568A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5724524BE2A3E00ED568A /* SceneDelegate.swift */; };
+		D1C5724824BE2A3F00ED568A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5724724BE2A3F00ED568A /* ViewController.swift */; };
+		D1C5724B24BE2A3F00ED568A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C5724924BE2A3F00ED568A /* Main.storyboard */; };
+		D1C5724D24BE2A4800ED568A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C5724C24BE2A4800ED568A /* Assets.xcassets */; };
+		D1C5725024BE2A4800ED568A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C5724E24BE2A4800ED568A /* LaunchScreen.storyboard */; };
+		D1C5725B24BE2A4900ED568A /* PajisjeMobAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5725A24BE2A4900ED568A /* PajisjeMobAppTests.swift */; };
+		D1C5726624BE2A4900ED568A /* PajisjeMobAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5726524BE2A4900ED568A /* PajisjeMobAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C5725724BE2A4900ED568A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C5723824BE2A3E00ED568A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C5723F24BE2A3E00ED568A;
+			remoteInfo = PajisjeMobApp;
+		};
+		D1C5726224BE2A4900ED568A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C5723824BE2A3E00ED568A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C5723F24BE2A3E00ED568A;
+			remoteInfo = PajisjeMobApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1C5724024BE2A3E00ED568A /* PajisjeMobApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PajisjeMobApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C5724324BE2A3E00ED568A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1C5724524BE2A3E00ED568A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1C5724724BE2A3F00ED568A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C5724A24BE2A3F00ED568A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1C5724C24BE2A4800ED568A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1C5724F24BE2A4800ED568A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1C5725124BE2A4800ED568A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C5725624BE2A4900ED568A /* PajisjeMobAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PajisjeMobAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C5725A24BE2A4900ED568A /* PajisjeMobAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PajisjeMobAppTests.swift; sourceTree = "<group>"; };
+		D1C5725C24BE2A4900ED568A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C5726124BE2A4900ED568A /* PajisjeMobAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PajisjeMobAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C5726524BE2A4900ED568A /* PajisjeMobAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PajisjeMobAppUITests.swift; sourceTree = "<group>"; };
+		D1C5726724BE2A4900ED568A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C5723D24BE2A3E00ED568A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C5725324BE2A4900ED568A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C5725E24BE2A4900ED568A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1C5723724BE2A3E00ED568A = {
+			isa = PBXGroup;
+			children = (
+				D1C5724224BE2A3E00ED568A /* PajisjeMobApp */,
+				D1C5725924BE2A4900ED568A /* PajisjeMobAppTests */,
+				D1C5726424BE2A4900ED568A /* PajisjeMobAppUITests */,
+				D1C5724124BE2A3E00ED568A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C5724124BE2A3E00ED568A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5724024BE2A3E00ED568A /* PajisjeMobApp.app */,
+				D1C5725624BE2A4900ED568A /* PajisjeMobAppTests.xctest */,
+				D1C5726124BE2A4900ED568A /* PajisjeMobAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1C5724224BE2A3E00ED568A /* PajisjeMobApp */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5724324BE2A3E00ED568A /* AppDelegate.swift */,
+				D1C5724524BE2A3E00ED568A /* SceneDelegate.swift */,
+				D1C5724724BE2A3F00ED568A /* ViewController.swift */,
+				D1C5724924BE2A3F00ED568A /* Main.storyboard */,
+				D1C5724C24BE2A4800ED568A /* Assets.xcassets */,
+				D1C5724E24BE2A4800ED568A /* LaunchScreen.storyboard */,
+				D1C5725124BE2A4800ED568A /* Info.plist */,
+			);
+			path = PajisjeMobApp;
+			sourceTree = "<group>";
+		};
+		D1C5725924BE2A4900ED568A /* PajisjeMobAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5725A24BE2A4900ED568A /* PajisjeMobAppTests.swift */,
+				D1C5725C24BE2A4900ED568A /* Info.plist */,
+			);
+			path = PajisjeMobAppTests;
+			sourceTree = "<group>";
+		};
+		D1C5726424BE2A4900ED568A /* PajisjeMobAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5726524BE2A4900ED568A /* PajisjeMobAppUITests.swift */,
+				D1C5726724BE2A4900ED568A /* Info.plist */,
+			);
+			path = PajisjeMobAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1C5723F24BE2A3E00ED568A /* PajisjeMobApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C5726A24BE2A4900ED568A /* Build configuration list for PBXNativeTarget "PajisjeMobApp" */;
+			buildPhases = (
+				D1C5723C24BE2A3E00ED568A /* Sources */,
+				D1C5723D24BE2A3E00ED568A /* Frameworks */,
+				D1C5723E24BE2A3E00ED568A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PajisjeMobApp;
+			productName = PajisjeMobApp;
+			productReference = D1C5724024BE2A3E00ED568A /* PajisjeMobApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1C5725524BE2A4900ED568A /* PajisjeMobAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C5726D24BE2A4900ED568A /* Build configuration list for PBXNativeTarget "PajisjeMobAppTests" */;
+			buildPhases = (
+				D1C5725224BE2A4900ED568A /* Sources */,
+				D1C5725324BE2A4900ED568A /* Frameworks */,
+				D1C5725424BE2A4900ED568A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C5725824BE2A4900ED568A /* PBXTargetDependency */,
+			);
+			name = PajisjeMobAppTests;
+			productName = PajisjeMobAppTests;
+			productReference = D1C5725624BE2A4900ED568A /* PajisjeMobAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1C5726024BE2A4900ED568A /* PajisjeMobAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C5727024BE2A4900ED568A /* Build configuration list for PBXNativeTarget "PajisjeMobAppUITests" */;
+			buildPhases = (
+				D1C5725D24BE2A4900ED568A /* Sources */,
+				D1C5725E24BE2A4900ED568A /* Frameworks */,
+				D1C5725F24BE2A4900ED568A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C5726324BE2A4900ED568A /* PBXTargetDependency */,
+			);
+			name = PajisjeMobAppUITests;
+			productName = PajisjeMobAppUITests;
+			productReference = D1C5726124BE2A4900ED568A /* PajisjeMobAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1C5723824BE2A3E00ED568A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Kastriot;
+				TargetAttributes = {
+					D1C5723F24BE2A3E00ED568A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D1C5725524BE2A4900ED568A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D1C5723F24BE2A3E00ED568A;
+					};
+					D1C5726024BE2A4900ED568A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D1C5723F24BE2A3E00ED568A;
+					};
+				};
+			};
+			buildConfigurationList = D1C5723B24BE2A3E00ED568A /* Build configuration list for PBXProject "PajisjeMobApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C5723724BE2A3E00ED568A;
+			productRefGroup = D1C5724124BE2A3E00ED568A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C5723F24BE2A3E00ED568A /* PajisjeMobApp */,
+				D1C5725524BE2A4900ED568A /* PajisjeMobAppTests */,
+				D1C5726024BE2A4900ED568A /* PajisjeMobAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1C5723E24BE2A3E00ED568A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C5725024BE2A4800ED568A /* LaunchScreen.storyboard in Resources */,
+				D1C5724D24BE2A4800ED568A /* Assets.xcassets in Resources */,
+				D1C5724B24BE2A3F00ED568A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C5725424BE2A4900ED568A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C5725F24BE2A4900ED568A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1C5723C24BE2A3E00ED568A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C5724824BE2A3F00ED568A /* ViewController.swift in Sources */,
+				D1C5724424BE2A3E00ED568A /* AppDelegate.swift in Sources */,
+				D1C5724624BE2A3F00ED568A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C5725224BE2A4900ED568A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C5725B24BE2A4900ED568A /* PajisjeMobAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C5725D24BE2A4900ED568A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C5726624BE2A4900ED568A /* PajisjeMobAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C5725824BE2A4900ED568A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C5723F24BE2A3E00ED568A /* PajisjeMobApp */;
+			targetProxy = D1C5725724BE2A4900ED568A /* PBXContainerItemProxy */;
+		};
+		D1C5726324BE2A4900ED568A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C5723F24BE2A3E00ED568A /* PajisjeMobApp */;
+			targetProxy = D1C5726224BE2A4900ED568A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1C5724924BE2A3F00ED568A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C5724A24BE2A3F00ED568A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1C5724E24BE2A4800ED568A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C5724F24BE2A4800ED568A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1C5726824BE2A4900ED568A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1C5726924BE2A4900ED568A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1C5726B24BE2A4900ED568A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PajisjeMobApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastro.PajisjeMobApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1C5726C24BE2A4900ED568A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PajisjeMobApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastro.PajisjeMobApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1C5726E24BE2A4900ED568A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PajisjeMobAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastro.PajisjeMobAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PajisjeMobApp.app/PajisjeMobApp";
+			};
+			name = Debug;
+		};
+		D1C5726F24BE2A4900ED568A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PajisjeMobAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastro.PajisjeMobAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PajisjeMobApp.app/PajisjeMobApp";
+			};
+			name = Release;
+		};
+		D1C5727124BE2A4900ED568A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PajisjeMobAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastro.PajisjeMobAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PajisjeMobApp;
+			};
+			name = Debug;
+		};
+		D1C5727224BE2A4900ED568A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PajisjeMobAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastro.PajisjeMobAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PajisjeMobApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1C5723B24BE2A3E00ED568A /* Build configuration list for PBXProject "PajisjeMobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C5726824BE2A4900ED568A /* Debug */,
+				D1C5726924BE2A4900ED568A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C5726A24BE2A4900ED568A /* Build configuration list for PBXNativeTarget "PajisjeMobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C5726B24BE2A4900ED568A /* Debug */,
+				D1C5726C24BE2A4900ED568A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C5726D24BE2A4900ED568A /* Build configuration list for PBXNativeTarget "PajisjeMobAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C5726E24BE2A4900ED568A /* Debug */,
+				D1C5726F24BE2A4900ED568A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C5727024BE2A4900ED568A /* Build configuration list for PBXNativeTarget "PajisjeMobAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C5727124BE2A4900ED568A /* Debug */,
+				D1C5727224BE2A4900ED568A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1C5723824BE2A3E00ED568A /* Project object */;
+}
