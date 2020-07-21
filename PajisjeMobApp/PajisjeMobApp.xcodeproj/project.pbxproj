@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D107320824C5E549002C00FE /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107320724C5E549002C00FE /* model.swift */; };
+		D107320A24C5E5FE002C00FE /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107320924C5E5FE002C00FE /* DBhelper.swift */; };
+		D107320C24C5F6BE002C00FE /* ShenimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107320B24C5F6BE002C00FE /* ShenimeViewController.swift */; };
 		D144FFC224C057FD002459F6 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144FFC124C057FD002459F6 /* QuizViewController.swift */; };
 		D1C5724424BE2A3E00ED568A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5724324BE2A3E00ED568A /* AppDelegate.swift */; };
 		D1C5724624BE2A3F00ED568A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5724524BE2A3E00ED568A /* SceneDelegate.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D107320724C5E549002C00FE /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		D107320924C5E5FE002C00FE /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
+		D107320B24C5F6BE002C00FE /* ShenimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShenimeViewController.swift; sourceTree = "<group>"; };
 		D144FFC124C057FD002459F6 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = SOURCE_ROOT; };
 		D1C5724024BE2A3E00ED568A /* PajisjeMobApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PajisjeMobApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C5724324BE2A3E00ED568A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +111,13 @@
 				D1C5724324BE2A3E00ED568A /* AppDelegate.swift */,
 				D1C5724524BE2A3E00ED568A /* SceneDelegate.swift */,
 				D1C5724724BE2A3F00ED568A /* ViewController.swift */,
+				D107320B24C5F6BE002C00FE /* ShenimeViewController.swift */,
 				D1C5724924BE2A3F00ED568A /* Main.storyboard */,
 				D1C5724C24BE2A4800ED568A /* Assets.xcassets */,
 				D1C5724E24BE2A4800ED568A /* LaunchScreen.storyboard */,
 				D1C5725124BE2A4800ED568A /* Info.plist */,
+				D107320724C5E549002C00FE /* model.swift */,
+				D107320924C5E5FE002C00FE /* DBhelper.swift */,
 			);
 			path = PajisjeMobApp;
 			sourceTree = "<group>";
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D107320824C5E549002C00FE /* model.swift in Sources */,
 				D1C5724824BE2A3F00ED568A /* ViewController.swift in Sources */,
 				D1C5724424BE2A3E00ED568A /* AppDelegate.swift in Sources */,
+				D107320C24C5F6BE002C00FE /* ShenimeViewController.swift in Sources */,
+				D107320A24C5E5FE002C00FE /* DBhelper.swift in Sources */,
 				D1C5724624BE2A3F00ED568A /* SceneDelegate.swift in Sources */,
 				D144FFC224C057FD002459F6 /* QuizViewController.swift in Sources */,
 			);

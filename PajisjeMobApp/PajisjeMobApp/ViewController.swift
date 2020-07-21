@@ -17,6 +17,15 @@ class ViewController: UIViewController {
     }
     
 
+    @IBAction func showAlert(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Miresevini", message: "Ju urojme sukses ne Kuiz!", preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(title:"OK",style:.cancel))
+        
+        self.present(alert,animated:true)
+        
+    }
 
 
 }
