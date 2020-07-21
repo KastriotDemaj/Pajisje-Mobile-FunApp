@@ -1,14 +1,15 @@
-﻿EMRI!
-===================
+<a href=""><img src="https://i.ibb.co/RStKG2Q/aae40afd-dc89-46ca-ab54-adf2c0381d11-200x200.png" title="Learndose" alt="Learndose"></a>
 
-Emri is an IOS applicaion, created to fulfill the requirements of the project in **Mobile Device Programming**. Entertaining users through fun facts and diffrent questions is the main objective of the application.
+# Learndose
+
+> Learndose is an IOS applicaion, created to fulfill the requirements of the project in **Mobile Device Programming**. Entertaining users through fun facts and diffrent questions is the main objective of the application.
 
 ----------
 
 
 ## Features
 -------------
-Emri has a couple of features, some of them are:
+Learndose has a couple of features, some of them are:
 
 > -  Browsing a lot of diffrent fun facts through the Curiosity page.
 > -  Ability to answer diffrent questions in the quiz.
