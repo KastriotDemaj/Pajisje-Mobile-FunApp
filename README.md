@@ -22,7 +22,6 @@ Learndose has a couple of features, some of them are:
 -------------
 
 ![enter image description here](https://i.ibb.co/DbYVDHs/foto.png)
-![enter idescription here](https://streamable.com/gedxrx)
 
 -------------
 
