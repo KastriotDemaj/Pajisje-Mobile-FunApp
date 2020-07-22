@@ -21,6 +21,8 @@ Learndose has a couple of features, some of them are:
 ## Usage
 -------------
 
+![enter image description here](https://i.ibb.co/DbYVDHs/foto.png)
+
 -------------
 
 ## Contributing
